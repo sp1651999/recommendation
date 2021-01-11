@@ -8,8 +8,8 @@ const App1=()=>{
         <>
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={Login} />
-                <Route path="/user/:id" component={Card} /> 
+                <Route exact path="/recommendation" component={Login} />
+                <Route path="/recommenddation/user/:id" component={Card} /> 
             </Switch>
         </BrowserRouter>
         </>
